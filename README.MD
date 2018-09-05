@@ -1,0 +1,33 @@
+## `LARADOCK` with `MySQL`
+
+
+This project contains three images for easy development with Laravel and MySQL. Are they:
+
+1 - Nginx
+
+2 - PHP-fpm
+
+3 - MySQL
+
+## __How to install__
+
+At your terminal enter the code below to upload the images. 
+
+````bash
+$ docker-compose up -d
+````
+
+Now enter in the terminal of the image laradock-php-fpm
+
+````bash 
+$ docker exec -it laradock-php-fpm /bin/bash
+````
+
+Run `compose install` to install the dependencies
+
+````bash 
+$ composer install
+````
+
+Access your browse at http://localhost:8088 and VUA-LÁ, enjoy! Pay attention, the Laravel's version used is 5.6.
+
