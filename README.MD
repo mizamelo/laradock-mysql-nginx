@@ -9,6 +9,8 @@ This project contains three images for easy development with Laravel and MySQL. 
 
 3 - MySQL
 
+4 - PHPMyAdmin
+
 ## __How to install__
 
 At your terminal enter the code below to upload the images. 
@@ -29,5 +31,5 @@ Run `compose install` to install the dependencies
 $ composer install
 ````
 
-Access your browse at http://localhost:8088 and VUA-LÁ, enjoy! Pay attention, the Laravel's version used is 5.6.
+Access your browse at http://localhost:8088 and VUA-LÁ, enjoy! Pay attention, the Laravel's version used is 5.6. For the database, access the url http://localhost:8005 with the user's credentials.
 

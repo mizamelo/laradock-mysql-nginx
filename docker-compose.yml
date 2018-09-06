@@ -1,6 +1,5 @@
-version: "3.1"
+version: "3.3"
 services:
-
     bd:
       image: mysql:8.0
       container_name: bd
@@ -10,10 +9,16 @@ services:
       environment:
         - MYSQL_ROOT_PASSWORD=secret
         - MYSQL_DATABASE=laradock
-        - MYSQL_USER=root
-        - MYSQL_PASSWORD=root
       ports:
-        - "8005:3306"
+        - "3306:3306"
+    app:
+      image: phpmyadmin/phpmyadmin:latest
+      links:
+        - bd
+      ports:
+        - 8005:80
+      environment:
+        - PMA_ARBITRARY=1
 
     webserver:
       image: nginx:alpine
