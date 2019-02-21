@@ -1,7 +1,7 @@
 version: "3.3"
 services:
     bd:
-      image: mysql:8.0
+      image: mysql:5.6
       container_name: bd
       working_dir: /application
       volumes:
