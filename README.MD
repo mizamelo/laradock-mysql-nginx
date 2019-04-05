@@ -1,4 +1,4 @@
-## `LARADOCK` with `MySQL` 
+### `LARADOCK` with `MySQL` 
 
 This project contains three images for easy development with Laravel and MySQL. Are they:
 
