@@ -10,7 +10,7 @@ This project contains three images for easy development with Laravel and MySQL. 
 
 4 - PHPMyAdmin
 
-## __How to install__
+### __How to install__
 
 At your terminal enter the code below to upload the images. 
 
