@@ -28,7 +28,7 @@ Run `composer install` to install the dependencies
 
 ````bash 
 $ composer install
-````
+`````
 
 
 Access your browse at http://localhost:8088 and VUA-LÁ, enjoy! Pay attention, the Laravel's version used is 5.6. For the database, access the url http://localhost:8005 with the user's credentials
